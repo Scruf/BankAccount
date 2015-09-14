@@ -7,21 +7,27 @@ public class CheckingAccount extends BankAccount {
 
     CheckingAccount(double newMoney, java.lang.String owner, boolean bonus)
     {
-        super(newMoney,owner);
-        bonus =false;
+        super(newMoney, owner);
+
     }
     public void calcInterest(){
 
+            if(!bonus==true)
+            {
 
-        double newBalance = super.getCurrentBalance()*(1+((BONUS_MONTHLY_RATE/100)/12));
-        double interest = newBalance-super.getCurrentBalance();
+                double newBalance = super.getCurrentBalance()*(1+((BONUS_MONTHLY_RATE/100)/12));
+                double interest = newBalance-super.getCurrentBalance();
+                super.setInterest(interest);
+                super.newMoney=newBalance;
+            }
 
-        super.setInterest(interest);
-        super.getInterest();
+
+
+
 
     }
     public java.lang.String toString()
     {
-        return super.getCurrentBalance()+" "+super.getInterest();
+        return "CN";
     }
 }

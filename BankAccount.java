@@ -3,7 +3,7 @@
  */
   public abstract class BankAccount extends java.lang.Object {
 
-    private double newMoney;
+    public double newMoney;
     private java.lang.String ownerName;
     private double interest;
     BankAccount(double newMoney, java.lang.String ownerName){
@@ -12,7 +12,7 @@
     }
         protected void addInterest(double newInterestEarned)
         {
-            this.newMoney = this.newMoney + newInterestEarned;
+         /*   System.out.print("/t"+newInterestEarned+newMoney);*/
         }
         public abstract  void calcInterest();
         protected void setInterest(double interest)
@@ -22,8 +22,10 @@
         }
         public double getInterest(){return this.interest;}
        public void printStatement(){
-           System.out.print("calculating the inerest");
-           System.out.print(this.interest);
+            System.out.print(" "+this.ownerName+"  "+" Interest Earned ");
+            System.out.printf("%1.2f",getInterest());
+            System.out.print(" Current balance "+getCurrentBalance());
+
         }
         public double getCurrentBalance()
         {

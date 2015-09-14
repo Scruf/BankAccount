@@ -6,8 +6,14 @@ public class TestBankACcount {
     {
 
         BankAccount bank = new CheckingAccount(5506.88,"Alice Smith",true);
-        bank.calcInterest();
-        bank.printStatement();
+        for(int i=0;i<3;i++)
+        {
+            bank.calcInterest();
+            System.out.print(bank.toString()+' ');
+            bank.printStatement();
+            System.out.println();
+        }
+
 
 
     }
