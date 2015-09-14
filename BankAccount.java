@@ -17,10 +17,13 @@
         public abstract  void calcInterest();
         protected void setInterest(double interest)
         {
+
            this.interest = interest;
         }
+        public double getInterest(){return this.interest;}
        public void printStatement(){
-
+           System.out.print("calculating the inerest");
+           System.out.print(this.interest);
         }
         public double getCurrentBalance()
         {
