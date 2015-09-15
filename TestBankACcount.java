@@ -26,9 +26,9 @@ public class TestBankACcount {
         for (int i = 0; i < 4; i++) {
             for (BankAccount a : accounts) {
                 a.calcInterest();
-                totalBalances += a.getCurrentBalance();
+
                 totalInterest += a.getInterest();
-                System.out.print(a.toString()+' ');
+                System.out.print(a.getAccountType());
                 a.printStatement();
                 System.out.println();
 
@@ -43,6 +43,8 @@ public class TestBankACcount {
         * Displaying the total interest
         * Displaying the total balances
         * */
+        for (BankAccount a : accounts)
+            totalBalances+=a.getCurrentBalance();
         System.out.printf("Total interest:\t" + "%1.2f", totalInterest);
         System.out.printf("\nTotal balances:\t" + "%1.2f", totalBalances);
 

@@ -19,6 +19,7 @@
         this.newMoney = newMoney;
         this.ownerName=ownerName;
     }
+    public abstract  java.lang.String getAccountType();
         protected void addInterest(double newInterestEarned)
         {
            /* System.out.print("\t"+newInterestEarned+newMoney);*/
@@ -48,8 +49,8 @@
     * */
        public void printStatement(){
 
-            System.out.print(" "+this.ownerName+"  "+" Interest Earned ");
-            System.out.printf("%1.2f", getInterest());
+            System.out.print(" "+this.ownerName+"  "+" Interest Earned\t ");
+            System.out.printf("%1.2f\t", getInterest());
             System.out.print(" Current balance ");
             System.out.printf("%10.2f",getCurrentBalance());
 
