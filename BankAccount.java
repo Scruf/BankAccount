@@ -4,7 +4,7 @@
   public abstract class BankAccount extends java.lang.Object {
 
     public double newMoney;
-    private java.lang.String ownerName;
+    public java.lang.String ownerName;
     private double interest;
     BankAccount(double newMoney, java.lang.String ownerName){
         this.newMoney = newMoney;

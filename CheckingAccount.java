@@ -4,6 +4,7 @@
 public class CheckingAccount extends BankAccount {
     public static double BONUS_MONTHLY_RATE = 0.1;
     private boolean bonus;
+    private static double PREMIUM_CHECKING_MINIMUM_BALANCE=500;
     public java.lang.String CHECKING_ACCOUNT = "CICN";
 
     CheckingAccount(double newMoney, java.lang.String owner, boolean bonus)
@@ -19,7 +20,7 @@ public class CheckingAccount extends BankAccount {
     }
     public void calcInterest(){
 
-            if(bonus)
+            if(bonus && super.getCurrentBalance()> PREMIUM_CHECKING_MINIMUM_BALANCE)
             {
 
                 double newBalance = super.getCurrentBalance()*(1+((BONUS_MONTHLY_RATE/100)/12));
@@ -36,6 +37,9 @@ public class CheckingAccount extends BankAccount {
     public java.lang.String getAccountType(){
             return CHECKING_ACCOUNT;
     }
-
+    public java.lang.String toString()
+    {
+        return this.newMoney+" "+super.ownerName+" ";
+    }
 
 }
