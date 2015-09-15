@@ -43,7 +43,7 @@ public class SavingAccount extends BankAccount {
     * */
     public java.lang.String toString()
     {
-        return getAccountType();
+        return getAccountType()+" "+this.ownerName+" "+this.newMoney;
     }
 }
 
