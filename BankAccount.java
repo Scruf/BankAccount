@@ -49,7 +49,7 @@
     * */
        public void printStatement(){
 
-            System.out.print(" "+this.ownerName+"  "+" Interest Earned\t ");
+            System.out.print(getAccountType()+" "+this.ownerName+"  "+" Interest Earned\t ");
             System.out.printf("%1.2f\t", getInterest());
             System.out.print(" Current balance ");
             System.out.printf("%10.2f",getCurrentBalance());

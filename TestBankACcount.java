@@ -28,7 +28,7 @@ public class TestBankACcount {
                 a.calcInterest();
 
                 totalInterest += a.getInterest();
-                System.out.print(a.getAccountType());
+
                 a.printStatement();
                 System.out.println();
 
