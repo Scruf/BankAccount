@@ -2,17 +2,24 @@
  * Created by scruf on 9/14/15.
  */
 public class CheckingAccount extends BankAccount {
-    public static double BONUS_MONTHLY_RATE = 1.5;
+    public static double BONUS_MONTHLY_RATE = 0.1;
     private boolean bonus;
+    public java.lang.String CHECKING_ACCOUNT = "CICN";
 
     CheckingAccount(double newMoney, java.lang.String owner, boolean bonus)
     {
         super(newMoney, owner);
+        this.bonus=bonus;
+        if(this.bonus)
+            this.CHECKING_ACCOUNT=CHECKING_ACCOUNT.substring(0,2);
+        else
+            this.CHECKING_ACCOUNT=CHECKING_ACCOUNT.substring(2,4);
+        System.out.print(getAccountType());
 
     }
     public void calcInterest(){
 
-            if(!bonus==true)
+            if(bonus)
             {
 
                 double newBalance = super.getCurrentBalance()*(1+((BONUS_MONTHLY_RATE/100)/12));
@@ -26,8 +33,9 @@ public class CheckingAccount extends BankAccount {
 
 
     }
-    public java.lang.String toString()
-    {
-        return "CN";
+    public java.lang.String getAccountType(){
+            return CHECKING_ACCOUNT;
     }
+
+
 }
