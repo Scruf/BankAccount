@@ -1,0 +1,88 @@
+commit ef2aee5256e56c3bec591bf355af9b2428391b75
+Author: scruf <ek5442@cs.rit.edu>
+Date:   Tue Sep 15 09:21:09 2015 -0700
+
+    Revised and finished version of the program
+    Comments added
+
+commit 558c60e1619f32af392c6ce5d1cd22e087e6658a
+Author: scruf <ek5442@cs.rit.edu>
+Date:   Tue Sep 15 08:51:40 2015 -0700
+
+    Revised and complete program
+
+commit 0773dc630c682426cb4201e0fe387ab8e7c0ba9d
+Author: scruf <ek5442@cs.rit.edu>
+Date:   Tue Sep 15 07:56:31 2015 -0700
+
+    Revised and complete program
+
+commit ed932ddeff4fd298bd122c150aa1351863227e44
+Author: scruf <ek5442@cs.rit.edu>
+Date:   Tue Sep 15 07:38:53 2015 -0700
+
+    Revised and complete version
+    of a BankaAccount program
+
+commit 90ff4ec7ea642a7a3f0004dceb309cf9dd14bb4e
+Author: scruf <ek5442@cs.rit.edu>
+Date:   Tue Sep 15 07:32:16 2015 -0700
+
+    Revised and complete program
+
+commit 3d2e66a3924f2662068b5e88dc49920f3313f640
+Author: scruf <ek5442@cs.rit.edu>
+Date:   Tue Sep 15 07:17:14 2015 -0700
+
+    Revised and documented classes
+
+commit 05826549cd05918272d54475fc5b2eb5caf9f1fb
+Author: scruf <ek5442@cs.rit.edu>
+Date:   Tue Sep 15 06:54:50 2015 -0700
+
+    Everything is implemented and tested
+    Documentation must be implemented
+
+commit 644e68817171a034e0d226b75bb3d3e16b9c733a
+Author: scruf <ek5442@cs.rit.edu>
+Date:   Tue Sep 15 06:29:18 2015 -0700
+
+    All accounts are implemented and revisied
+    Need Test implementation
+
+commit c48c5a6d948247d26d6b4d213a92479687bf1a08
+Author: scruf <ek5442@cs.rit.edu>
+Date:   Mon Sep 14 20:02:19 2015 -0700
+
+    CDA account need complition
+    The rest of the code need revision
+    and testing
+
+commit 037c10de426e9c47d624a2cc9e2ece8f537f52f2
+Author: scruf <ek5442@cs.rit.edu>
+Date:   Mon Sep 14 16:55:57 2015 -0700
+
+    Revised BankcAccount and Checking Account
+    Need further implementation and minimum balance
+    comparison
+
+commit b0adc118a5b2442a65d02481b060e7cc071f933a
+Author: scruf <ek5442@cs.rit.edu>
+Date:   Mon Sep 14 11:52:28 2015 -0700
+
+    Reviside Bank Account class
+    Added functionality for a Interest
+
+commit a8dc65e9ddf804381a67ac0fa8a4b1a510c10e69
+Author: scruf <ek5442@cs.rit.edu>
+Date:   Mon Sep 14 09:14:13 2015 -0700
+
+    Bank Account nee a further revision and updating
+
+commit 7e117a7d2a4adae602ed00b727540a080553b212
+Author: scruf <ek5442@cs.rit.edu>
+Date:   Mon Sep 14 09:10:10 2015 -0700
+
+    Bank Account programm
+    partial implementation of a BankAccoutnt class
+    partial implementation of Checking Accoun class
