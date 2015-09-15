@@ -15,7 +15,7 @@ public class CheckingAccount extends BankAccount {
             this.CHECKING_ACCOUNT=CHECKING_ACCOUNT.substring(0,2);
         else
             this.CHECKING_ACCOUNT=CHECKING_ACCOUNT.substring(2,4);
-        System.out.print(getAccountType());
+      /*  System.out.print(getAccountType());*/
 
     }
     public void calcInterest(){
