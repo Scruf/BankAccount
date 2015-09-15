@@ -28,6 +28,7 @@ public class TestBankACcount {
                 a.calcInterest();
                 totalBalances += a.getCurrentBalance();
                 totalInterest += a.getInterest();
+                System.out.print(a.toString()+' ');
                 a.printStatement();
                 System.out.println();
 
@@ -36,6 +37,7 @@ public class TestBankACcount {
             System.out.print("----------------------------------------------");
             System.out.println();
         }
+
         System.out.println();
         /*
         * Displaying the total interest

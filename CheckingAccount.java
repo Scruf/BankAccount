@@ -54,7 +54,7 @@ public class CheckingAccount extends BankAccount {
     * */
     public java.lang.String toString()
     {
-        return getAccountType()+" "+this.newMoney+" "+super.ownerName+" ";
+        return getAccountType();
     }
 
 }
