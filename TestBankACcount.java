@@ -37,6 +37,10 @@ public class TestBankACcount {
             System.out.println();
         }
         System.out.println();
+        /*
+        * Displaying the total interest
+        * Displaying the total balances
+        * */
         System.out.printf("Total interest:\t" + "%1.2f", totalInterest);
         System.out.printf("\nTotal balances:\t" + "%1.2f", totalBalances);
 
